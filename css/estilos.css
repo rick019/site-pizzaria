@@ -1,0 +1,214 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../images/fundo.jpg');
+}
+.logotipo{
+    justify-content: space-between;
+    display:block;
+    width: 110px;
+    padding: 10px;
+}
+.telefone{
+    display: inline-table;
+    padding: 5px;
+    font-size: 20px;
+
+}
+.cabecalho{
+    background-color: #B22D00;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato';
+    font-size: 15px;
+    padding: 15px;  
+    width: 1300px; 
+    margin: 0 auto;
+}
+
+.menu{
+    width: 1300px;
+    margin: 0 auto;
+}
+.menu-navegacao{
+    background-color: #D9A300;
+    text-decoration: none;
+    display: flex;
+    color: black;
+    font-size: 20px;
+
+
+}
+
+.formatacao{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    font-weight: bold;
+    padding: 10px;
+
+
+}
+.titulo{
+    color: black;
+    font-family: 'Roboto';
+    font-size: 40px;
+    padding: 10px;
+    margin: 5px 0px 5px 0px;
+    font-weight: bold;
+    padding-left: 35px;
+}
+
+hr{
+    height: 5px;
+    border-color: black;
+    background: black;
+}
+
+.fundo-conteudo{
+    background-color: white;
+    width: 1300px; 
+    margin: 0 auto;
+}
+
+.imagens-pizza{
+    display: flex;
+}
+.coluna-1 p,
+.coluna-2 p,
+.coluna-3 p{
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.coluna-1, .coluna-2, .coluna-3{
+    display: inline-table;
+    justify-content: space-between;
+    padding: 10px 70px;
+}
+
+.titulo-sabor{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.sabores{
+    padding: 30px;
+    background-color: white;
+}
+
+.sabor-1{
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    display: inline-table;
+}
+
+.historia{
+    font-size: 40px;
+    font-weight: bold;
+    float: inline-start;
+}
+
+.conteudo-2{
+    display: flex;
+}
+
+.forno{
+    width: 400px;
+}
+.forno-de-pizza{
+float:left;
+
+}
+
+.linha{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 200px;
+    padding-left: 0px;
+}
+
+.texto-2{
+    font-size: 20px;
+    padding-left: 150px;
+}
+
+.conheca{
+    text-decoration: none;
+    color:orange;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.rodape{
+    background-color: #333333;
+    color: white;
+    width: 1300px; 
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.subtitulo{
+    font-size: 25px;
+    font-family: 'Lato';
+    font-weight: 70;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.texto{
+    padding-left: 20px;
+    font-family: 'Roboto';
+    font-size: 17px;
+    padding-right: 40px;
+}
+
+.galeria{
+    display:flex;
+}
+.pizzas-galeria-1{
+    display: flex;
+    float: left;
+    width: 200px;
+}
+
+.pizzas-galeria-2{
+    display: flex;
+    float: left;
+    width: 200px;
+}
+
+.lista-pizza{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.linha-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.coluna{
+    width:800px;
+
+}
+.coluna-galeria{
+    width: 700px;
+}
+
+.coluna-galeria img{
+    width: 200px;
+}

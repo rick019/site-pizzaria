@@ -62,7 +62,7 @@ body{
     font-size: 40px;
     padding: 10px;
     margin: 5px 0px 5px 0px;
-    font-weight: bold;
+    font-weight: 70;
     padding-left: 35px;
 }
 
@@ -70,6 +70,7 @@ hr{
     height: 5px;
     border-color: black;
     background: black;
+
 }
 
 .fundo-conteudo{
@@ -157,7 +158,6 @@ float:left;
     color: white;
     width: 1300px; 
     margin: 0 auto;
-    font-weight: bold;
     font-size: 15px;
 }
 
@@ -183,12 +183,16 @@ float:left;
     display: flex;
     float: left;
     width: 200px;
+    margin-right: 2px;
 }
 
 .pizzas-galeria-2{
     display: flex;
     float: left;
-    width: 200px;
+    width: 10px;
+    margin-top: 2px;
+    margin-right: 2px;
+
 }
 
 .lista-pizza{
@@ -211,4 +215,114 @@ float:left;
 
 .coluna-galeria img{
     width: 200px;
+}
+
+.valor{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family:'Lato';
+    font-size: 25px;
+    font-weight: 70;
+}
+
+.valores{
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: 70;
+}
+
+.mensagem{
+    font-family: 'Lato';
+    font-size: 20px;
+    margin-top: 40px;
+    color: black;
+    font-weight: 1;
+    padding-left: 20px;
+}
+
+.texto-form{
+    font-family: 'Roboto';
+    padding-left: 20px;
+    margin-top: 7px;
+}
+
+.texto-mensagem{
+    margin: 0px;
+    width:612px;
+    height: 124px;
+}
+
+.texto-nome{
+    margin: 0px;
+    width: 318px;
+    height: 33px;
+}
+
+.texto-email{
+    margin: 0px;
+    width: 318px;
+    height: 33px;
+}
+.botao-enviar{
+   background-color: #777777;
+   color: white;
+   font-weight: bold;
+   border-radius: 1px;
+   padding: 4px 10px 4px 10px;
+}
+
+.coluna-3{
+    padding-left: 8px;
+}
+
+.mapa{
+    background-color: rgb(199, 199, 199);
+    padding: 90px 90px 90px 90px;
+    color: black;
+    font-weight: 80;
+    margin-top: 40px;
+}
+
+.endereco-titulo{
+    margin-top: 10px;
+    font-family: 'Lato';
+    color: black;
+    font-size: 25px;
+}
+
+.texto-rua{
+    font-family: 'Roboto';
+    padding-left: 0px;
+    display:flex;
+    font-size: 15px;
+}
+
+.email-contato{
+    font-family: 'Lato';
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.contato-pizza{
+    font-family: 'Roboto';
+    display: flex;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.telefone-contato{
+    font-family: 'Lato';
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.telefone-numero{
+    font-family: 'Roboto';
+    display: flex;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.formulario{
+    margin-left: 20px;
 }

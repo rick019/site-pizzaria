@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="logotipo">
+            <img src="images/logotipo.png" alt="logotipo da pizzaria">
+        </div>
+        <div class="telefone">
+            <br>
+            <br>
+            <h1>Disk Entregas:
+                <br>
+                (19) 1234-5678
+            </h1>
+        </div>
+    </header>
+    <nav class="menu">
+        <ul class="menu-navegacao">
+            <li><a class="formatacao" href="home-pizzaria.html">Home</a></li>
+            <li><a class="formatacao" href="quem-somos.html">Quem somos</a></li>
+            <li><a class="formatacao" href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="fundo-conteudo">
+        <div class="linha-2">
+            <div class="coluna">
+                <h1 class="titulo">Entre em Contato</h1>
+                <hr>
+                <h2 class="mensagem">Envie uma Mensagem</h2>
+                <p class="texto-form">Utilizar o formulário de contato para enviar sua mensagem:</p>
+                <br>
+                <form class="formulario" action="cadastrar.php" method="GET">
+                    <label for="nomeID">Nome</label>
+                    <br>
+                    <textarea class="texto-nome" name="nome" id="nomeID" required></textarea>
+                    <br>
+                    <label for=emailID>E-mail</label>
+                    <br>
+                    <textarea class="texto-email" name="email" id="emailID" required></textarea>
+                    <br>
+                    <label for="mensagemID">Mensagem</label>
+                    <br>
+                    <textarea class="texto-mensagem" name="mensagens" id="mensagemID" required></textarea>
+                    <br>
+                    <button class="botao-enviar" type="submit">Enviar</button>
+            </div>
+            <div class="coluna-3">
+                <div class="mapa">
+                    <h3>Mapa do Google
+                        <br>
+                        300 x 200
+                    </h3>
+                </div>
+                <h2 class="endereco-titulo">Endereço</h2>
+                <br>
+                <div class="texto-rua">
+                <p>Rua Teste, 123, Bairro
+                    <br> Sede, Americana - SP
+                </p>
+                </div>
+                <h2 class="email-contato">Email</h2>
+                <p class="contato-pizza">contato@superpizza.com.br</p>
+                <h2 class="telefone-contato">Telefone</h2>
+                <p class="telefone-numero">(19) 1234-5678</p>
+            </div>
+            </div>
+            </form>
+            <footer class="rodape">Aula do SENAC. Declaração de direitos autorais.</footer>
+</body>
+</body>
+
+</html>
